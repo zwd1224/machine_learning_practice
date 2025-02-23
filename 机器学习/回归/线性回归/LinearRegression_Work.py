@@ -1,4 +1,4 @@
-from LR import LinearRegression
+from LinearRegression import LinearRegression
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
