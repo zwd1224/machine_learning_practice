@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('机器学习\线性回归\world-happiness-report-2017.csv')
+data = pd.read_csv('world-happiness-report-2017.csv')
 train_data = data.sample(frac = 0.8)
 test_data = data.drop(train_data.index)
 input_param_name1 = 'Economy..GDP.per.Capita.'
